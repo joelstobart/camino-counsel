@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .arrow-pulse {
+    @apply animate-bounce;
+  }
+}
